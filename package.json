@@ -44,8 +44,9 @@
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.5.2",
-    "bitcore-lib": "^0.13.15",
+    "bitcore-lib": "https://github.com/Groestlcoin/bitcore-lib.git",
     "jsrsasign": "=5.0.10",
+	"node-groestl-hash": "=0.0.1",
     "protobufjs": "=5.0.1"
   },
   "devDependencies": {
